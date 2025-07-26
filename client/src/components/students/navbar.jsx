@@ -1,9 +1,10 @@
-import React from "react"
+import React from 'react'
+import assets from '../../assets/assets.js'
 
 const Navbar=()=>{
     return (
         <div>
-<h1>Navbar</h1>
+<img src={assets.logo} alt=""/>
         </div>
     )
 }

@@ -4,6 +4,7 @@ import { assets } from "../../assets/assets.js";
 import { Link } from "react-router-dom";
 import Googlelogin from "../googlelogin.jsx";
 import Create from "../create.jsx";
+import StarBorder from '../StarBorder.jsx'
 const Navbar = () => {
   const iscrlist = location.pathname.includes("/course-list");
   const [show, setshow] = useState(false);
@@ -36,7 +37,9 @@ const Navbar = () => {
           Create Account
         </button>
         {show && (
+          <div className="top-20 right-10 border-b">
             <Create onClose={() => setshow(false)} />
+            </div>
         )}
       </div>
       <div className="md:hidden flex items-center  sm:gap-5 text-black">

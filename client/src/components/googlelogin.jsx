@@ -1,4 +1,4 @@
-import { auth, googleProvider } from '../firebaseConfig';
+import { auth, googleProvider } from '../firebase/firebaseConfig';
 import { signInWithPopup } from 'firebase/auth';
 
 

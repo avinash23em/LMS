@@ -25,12 +25,12 @@ const Navbar = () => {
 
       <div className="hidden md:flex gap-5 items-center">
         <div>
-          {user && <><button className="text-black hover:border border-black px-6 py-2 rounded-full transition duration-300 ease-in-out">
+          {user && <><button className="text-black border border-transparent hover:border-black px-6 py-2 rounded-full transition duration-300 ease-in-out">
             Become Educator
           </button>
           <Link
             to="/my-enrollements"
-            className="text-black hover:border border-black px-6 py-2 rounded-full transition duration-300 ease-in-out"
+            className="text-black border border-transparent hover:border-black px-6 py-2 rounded-full transition duration-300 ease-in-out"
           >
             My Enrollements
           </Link>
